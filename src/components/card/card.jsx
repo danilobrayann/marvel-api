@@ -1,12 +1,12 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-
+import './styles.css'
 export default function  Card({ data }) {
   let navigate = useNavigate();
 
-  // Verificar si data es un array y si tiene elementos
+ 
   if (!Array.isArray(data) || data.length === 0) {
-    return null; // Si data no es un array o está vacío, no renderizar nada
+    return null; 
   }
 
   return (

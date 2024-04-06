@@ -1,8 +1,43 @@
-# React + Vite
+## Desafio Técnico - Busca de Super Heróis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Sobre o Projeto
+Este projeto foi desenvolvido como parte de um desafio técnico. Ele consiste em uma aplicação web que permite aos usuários buscar informações sobre super heróis utilizando a API da Marvel. A aplicação oferece diversas funcionalidades, incluindo busca por nome de super herói, feedbacks visuais durante o carregamento e tratamento de erros, entre outros recursos.
 
-Currently, two official plugins are available:
+### Instruções de Execução
+Para executar o projeto localmente, siga as instruções abaixo:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Certifique-se de ter o Node.js instalado em seu sistema.
+2. Clone o repositório do projeto para o seu ambiente local.
+3. Navegue até o diretório raiz do projeto.
+4. Execute o comando `npm install` para instalar todas as dependências do projeto.
+5. Após a instalação das dependências, execute o comando `npm start` para iniciar o servidor de desenvolvimento.
+6. Acesse a aplicação em seu navegador através do endereço `http://localhost:3000`.
+
+### Principais Métodos e Componentes
+
+#### `Main` Component
+Este componente representa a página principal da aplicação. Ele inclui a barra de busca e a exibição dos resultados da busca.
+
+#### `Marvel` Component
+O componente `Marvel` é responsável por exibir os detalhes de um super herói específico. Ele é acessado através da rota `/:id`.
+
+#### Feedbacks Visuais
+- **Feedback de Carregamento:** Durante a busca de dados do super herói, é exibido um indicador de carregamento para informar ao usuário que a aplicação está trabalhando.
+- **Feedback de Erro:** Caso a busca não retorne resultados ou ocorra algum erro durante o processo, a aplicação exibe uma mensagem de erro para o usuário.
+
+### Premissas Assumidas
+Durante o desenvolvimento deste projeto, foram feitas as seguintes premissas:
+- Utilização da API da Marvel para obter os dados dos super heróis.
+- Utilização de bibliotecas como React Router DOM para gerenciar a navegação na aplicação.
+- Implementação de feedbacks visuais para melhorar a experiência do usuário durante a interação com a aplicação.
+
+### Considerações Finais
+Este projeto foi desenvolvido utilizando o Trello como ferramenta de gerenciamento de projeto, onde as tarefas foram organizadas em quadros e listas para melhorar a eficiência e a organização durante o desenvolvimento.
+
+### Repositório do Projeto
+O código fonte deste projeto está disponível em um repositório público no GitHub. Você pode acessá-lo através do seguinte link: [link_do_repositório](https://github.com/seu_usuario/nome_do_repositorio).
+
+Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato. Agradeço pela oportunidade de participar deste desafio e estou à disposição para mais esclarecimentos durante a apresentação.
+
+Atenciosamente,
+[Danilo Souza Santos]

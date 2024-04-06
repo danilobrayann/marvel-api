@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-
+import './styles.css'
 export default function Marvel(){
   const { id } = useParams();
   const [item, setItem] = useState(null);

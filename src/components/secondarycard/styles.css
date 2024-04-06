@@ -1,0 +1,28 @@
+.box-content {
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    background: #eb7b59, url(marvel.jpg);
+    color: white;
+    font-size: 1.3rem;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .right-box {
+    flex-basis: 20%;
+  }
+  .left-box {
+    flex-basis: 50%;
+  }
+  .box-content img {
+    width: 300px;
+    height: 400px;
+  
+    transform: rotate(20deg);
+    transition: 0.5s;
+  }
+  .box-content img:hover {
+    transform: rotate(0deg);
+  }
