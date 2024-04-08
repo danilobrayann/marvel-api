@@ -10,16 +10,16 @@ Para executar o projeto localmente, siga as instruções abaixo:
 2. Clone o repositório do projeto para o seu ambiente local.
 3. Navegue até o diretório raiz do projeto.
 4. Execute o comando `npm install` para instalar todas as dependências do projeto.
-5. Após a instalação das dependências, execute o comando `npm start` para iniciar o servidor de desenvolvimento.
+5. Após a instalação das dependências, execute o comando `npm run dev` para iniciar o servidor de desenvolvimento.
 6. Acesse a aplicação em seu navegador através do endereço `http://localhost:3000`.
 
 ### Principais Métodos e Componentes
 
-#### `Main` Component
+#### `Home` Container
 Este componente representa a página principal da aplicação. Ele inclui a barra de busca e a exibição dos resultados da busca.
 
-#### `Marvel` Component
-O componente `Marvel` é responsável por exibir os detalhes de um super herói específico. Ele é acessado através da rota `/:id`.
+#### `Secondarycard` Component
+O componente `secondarycard` é responsável por exibir os detalhes de um super herói específico. Ele é acessado através da rota `/:id`.
 
 #### Feedbacks Visuais
 - **Feedback de Carregamento:** Durante a busca de dados do super herói, é exibido um indicador de carregamento para informar ao usuário que a aplicação está trabalhando.
@@ -33,9 +33,10 @@ Durante o desenvolvimento deste projeto, foram feitas as seguintes premissas:
 
 ### Considerações Finais
 Este projeto foi desenvolvido utilizando o Trello como ferramenta de gerenciamento de projeto, onde as tarefas foram organizadas em quadros e listas para melhorar a eficiência e a organização durante o desenvolvimento.
+[link_do_repositório](https://trello.com/b/HdR2tYqI/marvel-api).
 
 ### Repositório do Projeto
-O código fonte deste projeto está disponível em um repositório público no GitHub. Você pode acessá-lo através do seguinte link: [link_do_repositório](https://github.com/seu_usuario/nome_do_repositorio).
+O código fonte deste projeto está disponível em um repositório público no GitHub. Você pode acessá-lo através do seguinte link: [link_do_repositório](https://github.com/danilobrayann/marvel-api).
 
 Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato. Agradeço pela oportunidade de participar deste desafio e estou à disposição para mais esclarecimentos durante a apresentação.
 
